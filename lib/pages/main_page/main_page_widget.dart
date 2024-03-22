@@ -610,7 +610,7 @@ class _MainPageWidgetState extends State<MainPageWidget> {
         ),
         Spacer(),
         Padding(
-          padding: EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 24.0),
+          padding: const EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 24.0),
           child: FFButtonWidget(
             onPressed: () async {
 
@@ -628,16 +628,16 @@ class _MainPageWidgetState extends State<MainPageWidget> {
             options: FFButtonOptions(
               width: double.infinity,
               height: 56.0,
-              padding: EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
-              iconPadding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-              color: Color(0xFF48C9CF),
+              padding: const EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
+              iconPadding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+              color: const Color(0xFF48C9CF),
               textStyle: FlutterFlowTheme.of(context).titleSmall.override(
                 fontFamily: 'pretendard',
                 color: Colors.white,
                 useGoogleFonts: false,
               ),
               elevation: 3.0,
-              borderSide: BorderSide(
+              borderSide: const BorderSide(
                 color: Colors.transparent,
                 width: 0.0,
               ),
